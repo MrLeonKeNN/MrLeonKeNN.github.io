@@ -14,7 +14,20 @@ body{
 	padding: 0;
 	
 }
+.father{
+	background-image: url('../img/Layer.jpg') ;
+	background-size: cover ;
+	height: 1000px;
+	
+	width: 100%;
+}
 
+.father__2{
+	width: 100%;
+	height: 1740px;
+	background: #11749e;
+	background-size:cover;
+}
 header{
 	text-align: center;
 	padding-top: 55px;
@@ -72,23 +85,9 @@ h1{
 	margin-left: 35px;
 	padding-top: 0;
 }
-.father{
-	background-image: url('../img/Layer.jpg');
-	background-size: cover ;
-	height: auto;
-	display: block;
-	width: 100%;
 
-	
-	
-}
 
-.father__2{
-	width: 100%;
-	height: 1740px;
-	background: #11749e;
-	background-size:cover;
-}
+
 .sqr{
 	position: absolute;
 	
