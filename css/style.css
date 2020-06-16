@@ -8,6 +8,7 @@
 	src: url('../arr/GothamMedium') format('truetype');
 }
 body{
+	max-width: 1600px;
 margin: 0;
 }
 
@@ -28,7 +29,7 @@ hr{
 .head{
 	margin-top: 10px;
 	color: white;
-	font-size: 20pt;
+	font-size: 20px;
 	font-family:'Myriad Pro Regular',sans-serif;
 	text-decoration: none;
 	text-align: center;
@@ -51,10 +52,10 @@ h1{
 .pered{
 	color: #11749e;;
 	text-align: center;
-	font-size: 30pt;
+	font-size: 25px;
 	margin: 0;
 	font-family: 'Gotham-Black';
-	letter-spacing: 24px;
+	letter-spacing: 20px;
 }
 .header , div {
 	height: 65px;
@@ -89,7 +90,7 @@ h1{
 	position: absolute;
 	
 	top: 20px;
-	left: 200px;
+	left: 193px;
 	height: 65px;
 	width: 65px;
 	margin: 0;
@@ -100,7 +101,7 @@ h1{
 	position: absolute;
 	
 	top: 20px;
-	left: 207px;
+	left: 200px;
 	font-family: 'Open Sans', sans-serif;
 
 	color: white;
@@ -142,4 +143,5 @@ border: 1px solid white;
 	min-width: 60px;
 	min-height: 60px;
 	text-align: center;
+
 }
