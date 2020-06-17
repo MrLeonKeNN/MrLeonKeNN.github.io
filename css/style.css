@@ -15,8 +15,8 @@ body{
 	
 }
 .father{
-	background-image: url('../img/Layer.jpg') ;
-	background-size: cover ;
+	background: url('../img/Layer.jpg') center/cover no-repeat fixed;
+	
 	height: 1000px;
 	
 	width: 100%;
