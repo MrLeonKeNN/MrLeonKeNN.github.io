@@ -96,26 +96,84 @@ header{
 hr{
 	
 }
+.menu123{
+
+}
 .humm{
 	border-bottom: 1px solid white;
 }
-@media(max-width: 767px){
+.got{
+	position: fixed;
+	top: -100%;
+}
+@media(max-width: 768px){
+
+	body.lock{
+		overflow: hidden;
+	}
+
 	.header__menu{
 		display: none;
 	}
 	.logo__headd{
 		display: none;
 	}
+	.classno{
+		
+		
+		color: white;
+		font-size: 40px;
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+	}
+	.lol{
+		margin: 0 0 30px 0;
+	
+	}
+	.active{
+		height: 100%;
+		width: 100%;
+		background-color: rgb(54, 3, 3);
+		position: fixed;
+		top: -100%;	
+		transition: .5s;
+	}
+	.got{
+		
+		position: fixed;
+		top: -100%;
+		
+	}
+	.acda{
+		display: block;
+	}
+	.got.active{
+		top: 0;
+		display: block;
+	}
 	.iLove{
 		display: block;
 		position: fixed;
-		top: 0;
-		left: 0;
-		width: 30px;
-		height: 30px;
-		border: 2px solid white;
-		background-color: white;
+		top: 5px;
+		right: 5px;
+		width: 9%;
+		height: 5%;
+		border-top: 3px solid white;
+		border-bottom: 3px solid white;
+		box-sizing: content-box;align-items: center;display: flex;
 	}
+	.iLove1{
+		width: 100%;
+		
+		height: 3px;
+		background-color: white;
+		display: block;
+	}
+	.btq:hover{
+		display: none;
+	}
+	
 }
 .in{
 	font-size: 16pt; color: white;font-family: 'Myriad Pro Regular',sans-serif;padding-left: 10px;display: inline-block;
