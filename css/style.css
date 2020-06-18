@@ -7,7 +7,9 @@
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'GothamMedium';
-	src: url('../arr/GothamMedium') format('truetype');
+	src: url('../arr/Gotham-Black.otf') format();
+	font-family: 'Gotham-Book';
+	src: url('../arr/14008.otf');
 }
 body{
 	
@@ -39,8 +41,13 @@ list-style: none;}
 	display: flex;
 	align-items: center;
 }
+.center{
+	text-align: center;
+	margin-top: 10px;
+}
 
 .menu__list , a{
+	font-weight: 500;
 	font-family: 'Gotham-Book';
 	padding:40px 0;
 	color: white;
@@ -111,7 +118,7 @@ hr{
 	margin-top: 10px;
 	color: white;
 	font-size: 20px;
-	font-family:'Myriad Pro Regular',sans-serif;
+	
 	text-decoration: none;
 	text-align: center;
 	margin-right: 40px;
@@ -123,13 +130,7 @@ hr{
 	display: inline-block;
 }
 @media(max-width: 1300px){
-	.item__one{
-		display: none;
-	}
-	.item__two{
-		display: none;
-	}
-	.sqr{
+	.header__Logo{
 		display: none;
 	}
 }
