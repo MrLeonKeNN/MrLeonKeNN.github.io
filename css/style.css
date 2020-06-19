@@ -376,11 +376,73 @@ border: 1px solid white;
 	text-align: center;
 
 }
+.zerone111{
+	color: white;
+	font-size: 18px;
+	font-family: 'Gotham';
+	
+}
 .abra{
 	text-align: right;
 	width: 50%;
 }
+.father__4{
+	position: relative;
+}
+.gl__block{
+	display: flex;
+	justify-content: center;
+}
+.write123{
+	font-size: 38px;
+	font-family: 'Gotham';
+	text-align: center;
+	padding: 165px 0 110px 0;
+}
+.write333{
+	font-size: 30px;
+	font-family: 'Gotham';
+	text-align: center;
+	padding: 0 0 84px 0;
+}
+.max__1{
+	max-width: 1200px;
+	margin: auto;
+}
+.psdv{
+	position: absolute;
+	left: 50%;
+	font-size: 248px;
+	opacity: 15%;
+	font-family: 'Roboto', sans-serif;
+	margin-left: -80px;
+	top: 30px;
+}
+.gtg{
+	font-size: 18px;
+	color: #11749e;
+	text-align: center;
+	font-family: 'Gotham';
+}
+.lili{
+	font-family: 'Gotham';
+	line-height: 20px;
+	max-width: 90%;
+	text-align: center;
+}
+.ttp2{
+	text-align: left
+}
+.ttp3{
+	text-align: justify;
+}
+.block3321{
+	max-width: 270px;
+}
 @media(max-width: 768px){
+	.zerone{
+		text-align: center;
+	}
 	.abra{
 		display: none;
 	}
@@ -481,5 +543,17 @@ border: 1px solid white;
 	.vanish2{
 		flex-direction: column;
 	}
+	.ttp2{
+		text-align: center;
+	}
+	.ttp3{
+		text-align: center;
+	}
 	
+}
+@media(max-width:1200px){
+	.gl__block{
+		flex-wrap: wrap;
+		
+	}
 }
