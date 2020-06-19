@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 	
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 @font-face {
@@ -7,7 +10,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'GothamMedium';
-	src: url('../arr/Gotham-Black.otf') format();
+	src: url('../arr/Gotham-Black.otf') format('otf');
 	font-family: 'Gotham-Book';
 	src: url('../arr/14008.otf');
 }
@@ -84,7 +87,7 @@ list-style: none;}
 
 .father__2{
 	width: 100%;
-	height: 1740px;
+	height: 100%;
 	background: #11749e;
 	background-size:cover;
 }
@@ -110,6 +113,20 @@ hr{
 
 	body.lock{
 		overflow: hidden;
+	}
+	.zind{
+		max-width: 50%;
+
+	}
+	.nonese{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.father__2{
+		height: max-content;
+		
 	}
 
 	.header__menu{
@@ -172,6 +189,9 @@ hr{
 	}
 	.btq:hover{
 		display: none;
+	}
+	.vanish2{
+		flex-direction: column;
 	}
 	
 }
@@ -326,5 +346,67 @@ border: 1px solid white;
 	min-width: 60px;
 	min-height: 60px;
 	text-align: center;
+}
+.vanish{
+	height: 45%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	position: relative;
+}
+.itemis{
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	margin-left: -110px;
+	color: white;
+	font-size: 248px;
+	opacity: 15%;
+}
+.degener{
+	padding: 190px 0;
+	font-weight: 600;
+	font-size: 38px;
+	font-family: 'Gotham';
+	color: white;
+	text-align: center;
+}
+.zerone{
+	
+	color: white;
+	font-size: 18px;
+	font-family: 'GothamMedium';
+	text-align: center;
+}
+.zind{
+	padding-bottom:150px ;
+	font-family: 'Gotham',sans-serif;
+	line-height: 25px;
+	margin: 0 25px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
 
+}
+.vanish2{
+	display: flex;
+
+}
+.imhco{
+	display: flex;
+	width: 134px;
+	height: 134px;
+	background-color: #2e85aa;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	text-align: center;
+	margin: auto;
+}
+.min__father{
+	max-width: 1200px;
+	margin: auto;
+	height: 100%;
 }
