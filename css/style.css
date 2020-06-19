@@ -97,12 +97,7 @@ header{
 	padding-top: 55px;
 
 }
-hr{
-	
-}
-.menu123{
 
-}
 .humm{
 	border-bottom: 1px solid white;
 }
@@ -116,9 +111,6 @@ hr{
 }
 .peree{
 	text-align: center; margin-top:5px 
-}
-.btw{
-
 }
 .btq:hover{
 	border-bottom: 6px solid #11749e;
@@ -137,7 +129,7 @@ hr{
 }
 
 .nene{
-	float: left;
+	
 	display: inline-block;
 }
 @media(max-width: 1300px){
@@ -254,10 +246,7 @@ border: 1px solid white;
 
 
 }
-.write__i{
-	
-	
-}
+
 .ares{
 	min-width: 60px;
 	min-height: 60px;
