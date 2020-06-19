@@ -50,6 +50,7 @@ list-style: none;}
 	display: flex;
 	align-items: center;
 }
+
 .center{
 	text-align: center;
 	margin-top: 10px;
@@ -292,7 +293,7 @@ border: 1px solid white;
 	
 	color: white;
 	font-size: 18px;
-	font-family: 'GothamMedium';
+	font-family: 'Gotham';
 	text-align: center;
 }
 .zind{
@@ -353,11 +354,55 @@ border: 1px solid white;
 .img__block1{
 	width: 50%;
 }
+.dedee{
+	display: flex; 
+	
+	align-items: center;
+	 justify-content: flex-start;
+	
+	   width: 50%;
+}
+.bocl__13{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: white;
+}
+.contetnt123{
+	max-width: 800px;
+	width: 100%;
+	height: auto;
+
+}
+.deb22{
+	margin: 0 100px 0 100px; 
+	max-width: 500px;
+}	
+
+.zerone1{
+	color: black;
+	font-size: 18px;
+	font-family: 'Gotham';
+	text-align: center;
+
+}
+.abra{
+	text-align: right;
+	width: 50%;
+}
 @media(max-width: 768px){
+	.abra{
+		display: none;
+	}
 	.img__block1{
 		display: none;
 	}
 	.dede{
+		margin: 60px 0;
+		width: 100%;
+	}
+	.dedee{
 		margin: 60px 0;
 		width: 100%;
 	}
