@@ -437,7 +437,108 @@ border: 1px solid white;
 	text-align: justify;
 }
 .block3321{
+	margin: 0 10px;
 	max-width: 270px;
+	
+}
+.father__5{
+	background-color: #11749e;
+	display: flex;
+}
+.diviant1{
+	display: flex;
+	align-items: center;
+	padding: 100px 0 124px 0;
+}
+.diviant{
+	width: 100%;
+	max-width: 1250px;
+	display: flex;
+	margin: auto;
+}
+.later{
+	color: white;
+	max-width: 600px;
+	font-family: 'Gotham';
+}
+.delete{
+	margin: 0 30px;
+}
+.father__6{
+	background: url('../img/Lay.jpg')center/cover no-repeat;
+
+}
+.maxP{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+}
+.mix12{
+	color: white;
+	font-family: 'Gotham-Book';
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;	
+}
+.hari{
+	font-size: 25px;
+}
+.werea{
+	
+	max-width: 500px;
+}
+.den1{
+	padding: 13px 0 13px 0;
+	background-color: #11749e;
+	max-width: 368px;
+	font-size: 15px;
+}
+.den2{
+	padding: 13px 0 13px 0;
+	background-color: #11749e;
+	max-width: 408px;
+	font-size: 15px;
+}
+.den3{
+	padding: 13px 0 13px 0;
+	background-color: #11749e;
+	max-width: 448px;
+	font-size: 15px;
+}
+.maximys12{
+	max-width: 1200px;
+	margin: auto;
+	position: relative;
+}
+.deni{
+
+	
+}
+.robo1{
+	font-size: 248px;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	opacity: 55%;
+	color: #d7d7d7;
+	margin: 0 0 0 -72px;
+}
+.heri3{
+	text-align: center;
+	padding: 150px 0;
+	font-size: 38px;
+	font-family: 'Gotham';
+	margin: 0;
+}
+.heri4{
+	text-align: center;
+}
+
+.deni1{
+	display: flex;
+	justify-content: center;
 }
 @media(max-width: 768px){
 	.zerone{
