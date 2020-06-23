@@ -14,6 +14,9 @@
 	font-family: 'Gotham-Book';
 	src: url('../arr/14008.otf');
 }
+*, *:before, *:after {
+	box-sizing: border-box;
+}
 .iLove{
 	display: none;
 }
@@ -88,7 +91,6 @@ list-style: none;}
 
 .father__2{
 	width: 100%;
-	height: 100%;
 	background: #11749e;
 	background-size:cover;
 }
@@ -429,6 +431,7 @@ border: 1px solid white;
 	line-height: 20px;
 	max-width: 90%;
 	text-align: center;
+	margin-bottom: 10px;
 }
 .ttp2{
 	text-align: left
@@ -534,11 +537,88 @@ border: 1px solid white;
 }
 .heri4{
 	text-align: center;
+	font-size: 30px;
+	font-family: 'Gotham';
 }
 
 .deni1{
 	display: flex;
 	justify-content: center;
+}
+.deni11{
+	margin: 0 15px 125px 15px;
+}
+.father__8{
+	background: url('../img/LA31.jpg')center/cover no-repeat;
+	
+}
+.inp123{
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+	width: 340px;
+	height: 50px;
+	margin-right:50px ;
+	padding: 0 0 0 10px;
+	
+}
+.mxasr1{
+	max-width: 1200px;
+	margin: auto;
+}
+.dzabay{
+	position: absolute;
+	color: white;
+	font-size: 250px;
+	font-family: 'Roboto', sans-serif;
+	left:50% ;
+	top:90px ;
+	margin: 0 0 0 -81px;
+	opacity: 25%;
+}
+.zeroJiro{
+	color: white;
+	font-size: 37px;
+	font-family: 'Gotham';
+	text-align: center;
+	padding: 220px 0 148px 0;
+}
+.baasss{
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+	font-size: 15px;
+	font-family:'Gotham' ;
+	
+	width: 1140px;
+	height: 150px;
+	margin: 35px 0;
+	padding: 0;
+	}
+.baasss , textarea{
+	padding: 10px 0 0 10px ;
+}
+
+::placeholder{
+	color: white;
+	
+}
+.box__Subm{
+	width: 225px;
+	height: 65px;
+	background-color: #11749e;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	cursor: pointer;
+}
+.father__10{
+	height: 120px;
+	background-color: #222222;
+	display: flex;
+	align-items: center;
 }
 @media(max-width: 768px){
 	.zerone{
@@ -613,6 +693,10 @@ border: 1px solid white;
 		top: -100%;
 		
 	}
+	.deb21{
+		max-width: 400px;
+		margin: auto;
+	}
 	.acda{
 		display: block;
 	}
@@ -656,5 +740,11 @@ border: 1px solid white;
 	.gl__block{
 		flex-wrap: wrap;
 		
+	}
+	.deni1{
+		flex-wrap: wrap;
+	}
+	.diviant1{
+		flex-wrap: wrap;
 	}
 }
