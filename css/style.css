@@ -196,7 +196,16 @@ h1{
 	color: white;
 
 }
-
+.cool123{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%; 
+	border: 1px solid white;
+	margin: auto;
+	display: block;
+	color: white;
+	padding: 0;
+}
 
 
 .sqr{
@@ -236,7 +245,7 @@ h1{
 	font-size: 12px;
 	text-align: center;
 	margin-top: 185px;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 .button{
 background-color: #2e2d2b;
@@ -311,6 +320,10 @@ border: 1px solid white;
 	border-radius: 50%;
 	text-align: center;
 	margin: auto;
+}
+.cool2{
+	padding: 20px 0 0 20px; 
+
 }
 .min__father{
 	max-width: 1200px;
@@ -734,14 +747,16 @@ border: 1px solid white;
 		height: 5%;
 		border-top: 3px solid rgb(117, 166, 212);
 		border-bottom: 3px solid rgb(117, 166, 212);
-		box-sizing: content-box;align-items: center;display: flex;
+		box-sizing: content-box;
+		align-items: center;
+		display: flex;
 		z-index: 2;
 	}
 	.iLove1{
 		width: 100%;
 		z-index: 2;
 		height: 3px;
-		background-color: rgb(117, 166, 212);
+		background-color: rgb(175, 228, 106);
 		display: block;
 	}
 	.btq:hover{
