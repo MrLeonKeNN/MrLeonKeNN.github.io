@@ -27,6 +27,6 @@ $("a.scrollto").click(function() {
     return false;
   });
   $('a.scrollto').click(function(event) {
-	$('.header__burger,.header__menu').removeClass('active');
+	$(' .header__burger, .header__menu, .got').removeClass('active');
 	$('body').removeClass('lock');
 })
