@@ -26,3 +26,7 @@ $("a.scrollto").click(function() {
     }, 800);
     return false;
   });
+  $('a.scrollto').click(function(event) {
+	$('.header__burger,.header__menu').removeClass('active');
+	$('body').removeClass('lock');
+})
